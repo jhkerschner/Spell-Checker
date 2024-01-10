@@ -1,0 +1,19 @@
+{
+  "name": "spell-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node main.js",
+    "build": "tsc",
+    "check-spelling": "tsc && node dist/main.js ./dictionary.txt ./sourceFile.txt"
+  },
+  "author": "Jared Kerschner",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.13.1"
+  }
+}
